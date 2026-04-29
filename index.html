@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SlickLabs LLC — Application Development & Consulting</title>
+    <meta name="description" content="SlickLabs LLC is a technology company specializing in application development and consulting. We build thoughtful software for the modern world.">
+    <meta name="author" content="SlickLabs LLC">
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="SlickLabs LLC — Application Development & Consulting">
+    <meta property="og:description" content="We build thoughtful software for the modern world. Application development and consulting services.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://slicklabs.online">
+
+    <!-- Favicon (inline SVG data URI) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ===== NAVIGATION ===== -->
+    <nav id="navbar" role="navigation" aria-label="Main navigation">
+        <div class="nav-container">
+            <a href="#hero" class="nav-logo" aria-label="SlickLabs home">
+                <span class="logo-icon">⚡</span>
+                <span class="logo-text">SlickLabs</span>
+            </a>
+            <div class="nav-links" id="nav-links">
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <button class="nav-toggle" id="nav-toggle" aria-label="Toggle navigation menu" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- ===== HERO ===== -->
+    <section id="hero" class="hero-section">
+        <div class="hero-bg">
+            <div class="gradient-orb orb-1"></div>
+            <div class="gradient-orb orb-2"></div>
+            <div class="gradient-orb orb-3"></div>
+            <div class="grid-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <div class="hero-badge">Application Development & Consulting</div>
+            <h1 class="hero-title">
+                We build software that
+                <span class="gradient-text">moves forward.</span>
+            </h1>
+            <p class="hero-subtitle">
+                SlickLabs LLC is a technology company focused on crafting thoughtful applications and providing expert consulting for the modern digital landscape.
+            </p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary" id="hero-cta">Get in Touch</a>
+                <a href="#about" class="btn btn-ghost" id="hero-learn-more">Learn More</a>
+            </div>
+        </div>
+        <div class="scroll-indicator" aria-hidden="true">
+            <div class="scroll-line"></div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section id="about" class="section about-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">Who We Are</span>
+                <h2 class="section-title">Technology, refined.</h2>
+                <p class="section-description">
+                    We're a small, focused team that believes great software starts with clear thinking. At SlickLabs, we approach every project with the goal of building something that genuinely serves its users — no bloat, no shortcuts.
+                </p>
+            </div>
+            <div class="values-grid">
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M12 2L2 7l10 5 10-5-10-5z"/>
+                            <path d="M2 17l10 5 10-5"/>
+                            <path d="M2 12l10 5 10-5"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Purposeful Design</h3>
+                    <p class="value-description">Every decision is intentional. We design systems and interfaces that respect the user's time and attention.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <polyline points="16 18 22 12 16 6"/>
+                            <polyline points="8 6 2 12 8 18"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Clean Engineering</h3>
+                    <p class="value-description">We write code that's meant to last — maintainable, well-structured, and built on modern best practices.</p>
+                </div>
+                <div class="value-card">
+                    <div class="value-icon">
+                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                            <circle cx="12" cy="12" r="10"/>
+                            <path d="M2 12h20"/>
+                            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/>
+                        </svg>
+                    </div>
+                    <h3 class="value-title">Forward Thinking</h3>
+                    <p class="value-description">We stay curious, adopt emerging technologies early, and build with tomorrow's possibilities in mind.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section id="services" class="section services-section">
+        <div class="container">
+            <div class="section-header">
+                <span class="section-tag">What We Do</span>
+                <h2 class="section-title">Building what matters.</h2>
+                <p class="section-description">
+                    We specialize in two areas where we can deliver the most impact: building applications from the ground up and helping teams navigate complex technical decisions.
+                </p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" id="service-app-dev">
+                    <div class="service-number">01</div>
+                    <h3 class="service-title">Application Development</h3>
+                    <p class="service-description">
+                        From concept to launch, we design and develop mobile and web applications that are polished, performant, and built to scale. We focus on native and cross-platform experiences that feel right.
+                    </p>
+                    <div class="service-tags">
+                        <span class="tag">Mobile Apps</span>
+                        <span class="tag">Web Apps</span>
+                        <span class="tag">Cross-Platform</span>
+                    </div>
+                </div>
+                <div class="service-card" id="service-consulting">
+                    <div class="service-number">02</div>
+                    <h3 class="service-title">Technical Consulting</h3>
+                    <p class="service-description">
+                        We help teams make sound architectural decisions, modernize legacy systems, and adopt the right tools for their specific challenges. Clear advice, no fluff.
+                    </p>
+                    <div class="service-tags">
+                        <span class="tag">Architecture</span>
+                        <span class="tag">Strategy</span>
+                        <span class="tag">Modernization</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <span class="section-tag">Get in Touch</span>
+                    <h2 class="section-title">Let's talk.</h2>
+                    <p class="section-description">
+                        Have a project in mind or just want to connect? We'd love to hear from you. Drop us an email and we'll get back to you.
+                    </p>
+                    <div class="contact-methods">
+                        <a href="mailto:contact@slicklabs.online" class="contact-method" id="contact-email">
+                            <div class="contact-icon">
+                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <rect x="2" y="4" width="20" height="16" rx="2"/>
+                                    <path d="M22 4l-10 8L2 4"/>
+                                </svg>
+                            </div>
+                            <div class="contact-detail">
+                                <span class="contact-label">Email</span>
+                                <span class="contact-value">contact@slicklabs.online</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="contact-visual">
+                    <div class="contact-glow"></div>
+                    <div class="abstract-shape">
+                        <svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <defs>
+                                <linearGradient id="contactGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+                                    <stop offset="0%" style="stop-color:#06b6d4;stop-opacity:0.6" />
+                                    <stop offset="50%" style="stop-color:#8b5cf6;stop-opacity:0.4" />
+                                    <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:0.2" />
+                                </linearGradient>
+                            </defs>
+                            <path fill="url(#contactGradient)" d="M44.7,-76.4C58.8,-69.2,71.8,-59.1,79.6,-45.8C87.4,-32.5,90,-16.3,88.2,-1.1C86.3,14.1,80,28.2,71.3,39.8C62.6,51.4,51.5,60.5,39,67.3C26.5,74.1,12.6,78.6,-2.3,82.4C-17.2,86.2,-33.1,89.3,-45.7,82.7C-58.3,76.1,-67.6,59.8,-74.5,43.7C-81.4,27.6,-85.9,11.7,-84.6,-3.3C-83.3,-18.3,-76.2,-32.4,-66.2,-43.4C-56.2,-54.4,-43.3,-62.3,-30.1,-69.9C-16.9,-77.5,-3.5,-84.8,6.5,-80.1C16.5,-75.4,30.6,-83.6,44.7,-76.4Z" transform="translate(100 100)" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer id="footer" class="footer" role="contentinfo">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <a href="#hero" class="nav-logo footer-logo" aria-label="SlickLabs home">
+                        <span class="logo-icon">⚡</span>
+                        <span class="logo-text">SlickLabs</span>
+                    </a>
+                    <p class="footer-tagline">Building thoughtful software for the modern world.</p>
+                </div>
+                <div class="footer-links">
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p class="copyright">&copy; 2026 SlickLabs LLC. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
